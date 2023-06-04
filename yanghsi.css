@@ -1,0 +1,24 @@
+body, html {
+    background-color: #F3F3F1; /* 设置页面背景颜色 */
+    margin: 0; /* 清除页面的外边距 */
+    padding: 0; /* 清除页面的内边距 */
+}
+
+.divs {
+    display: flex; /* 使用弹性盒子布局 */
+    justify-content: flex-start; /* 将内容靠左对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 80px; /* 设置 div 的高度 */
+    background-color: #ffffff; /* 设置 div 的背景颜色 */
+}
+
+.geshi {
+    margin-left: 25px; /* 设置左侧边距为 20px */
+
+}
+
+.geshi1 {
+    margin-left: 40px; /* 设置左侧边距为 40px */
+    font-weight: bold;
+    font-size: 20px;
+}
