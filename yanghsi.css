@@ -8,8 +8,9 @@ body, html {
     display: flex; /* 使用弹性盒子布局 */
     justify-content: flex-start; /* 将内容靠左对齐 */
     align-items: center; /* 垂直居中对齐 */
-    height: 80px; /* 设置 div 的高度 */
+    height: 100px; /* 设置 div 的高度 */
     background-color: #ffffff; /* 设置 div 的背景颜色 */
+    position: relative;
 }
 
 .geshi {
@@ -20,5 +21,16 @@ body, html {
 .geshi1 {
     margin-left: 40px; /* 设置左侧边距为 40px */
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
+
+  
+  .divss {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* height: 40px; */
+    width: 500px;
+    height: 42px;
+    background-color: rgb(255, 255, 255);
+  }
